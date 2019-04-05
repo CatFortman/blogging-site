@@ -200,3 +200,417 @@ Object name: 'HttpResponseStream'.
 2019-04-05 10:23:05,086 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Index (BloggingSite) in 355.5362ms
 2019-04-05 10:23:05,184 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 744.7826ms 200 text/html; charset=utf-8
 2019-04-05 10:23:05,184 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 744.7826ms 200 text/html; charset=utf-8
+2019-04-05 10:54:49,480 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/  
+2019-04-05 10:54:49,480 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/  
+2019-04-05 10:54:49,487 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Index (BloggingSite)
+2019-04-05 10:54:49,487 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Index (BloggingSite)
+2019-04-05 10:54:49,492 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Index (BloggingSite) - Validation state: Valid
+2019-04-05 10:54:49,492 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Index (BloggingSite) - Validation state: Valid
+2019-04-05 10:54:49,500 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Index (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.5389ms.
+2019-04-05 10:54:49,500 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Index (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.5389ms.
+2019-04-05 10:54:49,522 [26] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Index.
+2019-04-05 10:54:49,522 [26] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Index.
+2019-04-05 10:54:49,548 [26] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Index executed in 27.9098ms.
+2019-04-05 10:54:49,548 [26] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Index executed in 27.9098ms.
+2019-04-05 10:54:49,556 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Index (BloggingSite) in 61.1704ms
+2019-04-05 10:54:49,556 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Index (BloggingSite) in 61.1704ms
+2019-04-05 10:54:49,612 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 80.9143ms 200 text/html; charset=utf-8
+2019-04-05 10:54:49,612 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 80.9143ms 200 text/html; charset=utf-8
+2019-04-05 10:54:50,827 [28] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/Home/About  
+2019-04-05 10:54:50,827 [28] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/Home/About  
+2019-04-05 10:54:50,834 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "About", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.About (BloggingSite)
+2019-04-05 10:54:50,834 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "About", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.About (BloggingSite)
+2019-04-05 10:54:50,841 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.About (BloggingSite) - Validation state: Valid
+2019-04-05 10:54:50,841 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.About (BloggingSite) - Validation state: Valid
+2019-04-05 10:54:50,846 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.About (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.837ms.
+2019-04-05 10:54:50,846 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.About (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.837ms.
+2019-04-05 10:54:50,854 [28] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view About.
+2019-04-05 10:54:50,854 [28] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view About.
+2019-04-05 10:54:50,865 [28] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view About executed in 14.4864ms.
+2019-04-05 10:54:50,865 [28] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view About executed in 14.4864ms.
+2019-04-05 10:54:50,876 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.About (BloggingSite) in 31.1467ms
+2019-04-05 10:54:50,876 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.About (BloggingSite) in 31.1467ms
+2019-04-05 10:54:50,914 [28] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 52.7669ms 200 text/html; charset=utf-8
+2019-04-05 10:54:50,914 [28] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 52.7669ms 200 text/html; charset=utf-8
+2019-04-05 10:54:51,842 [28] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/Home/Contact  
+2019-04-05 10:54:51,842 [28] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/Home/Contact  
+2019-04-05 10:54:51,849 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Contact", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Contact (BloggingSite)
+2019-04-05 10:54:51,849 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Contact", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Contact (BloggingSite)
+2019-04-05 10:54:51,854 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Contact (BloggingSite) - Validation state: Valid
+2019-04-05 10:54:51,854 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Contact (BloggingSite) - Validation state: Valid
+2019-04-05 10:54:51,858 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Contact (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5029ms.
+2019-04-05 10:54:51,858 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Contact (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5029ms.
+2019-04-05 10:54:51,866 [28] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Contact.
+2019-04-05 10:54:51,867 [28] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Contact.
+2019-04-05 10:54:51,876 [28] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Contact executed in 13.9161ms.
+2019-04-05 10:54:51,877 [28] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Contact executed in 13.9161ms.
+2019-04-05 10:54:51,881 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Contact (BloggingSite) in 28.1934ms
+2019-04-05 10:54:51,881 [28] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Contact (BloggingSite) in 28.1934ms
+2019-04-05 10:54:51,895 [28] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 43.4762ms 200 text/html; charset=utf-8
+2019-04-05 10:54:51,895 [28] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 43.4762ms 200 text/html; charset=utf-8
+2019-04-05 10:54:57,653 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/Home/BlogPosts  
+2019-04-05 10:54:57,653 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/Home/BlogPosts  
+2019-04-05 10:54:57,659 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 7.0679ms 404 
+2019-04-05 10:54:57,659 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 7.0679ms 404 
+2019-04-05 10:55:03,812 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/BlogPosts  
+2019-04-05 10:55:03,812 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/BlogPosts  
+2019-04-05 10:55:03,831 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "BlogPosts"}. Executing action WebApplication.Controllers.BlogPostsController.Index (BloggingSite)
+2019-04-05 10:55:03,832 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "BlogPosts"}. Executing action WebApplication.Controllers.BlogPostsController.Index (BloggingSite)
+2019-04-05 10:55:04,238 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.BlogPostsController.Index (BloggingSite) in 402.7881ms
+2019-04-05 10:55:04,238 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.BlogPostsController.Index (BloggingSite) in 402.7881ms
+2019-04-05 10:55:04,564 [6] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: connectionString
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotEmpty(String value, String parameterName)
+   at Microsoft.EntityFrameworkCore.SqlServerDbContextOptionsExtensions.UseSqlServer(DbContextOptionsBuilder optionsBuilder, String connectionString, Action`1 sqlServerOptionsAction)
+   at WebApplication.Startup.<ConfigureServices>b__6_1(DbContextOptionsBuilder options) in C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\Startup.cs:line 47
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider p, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.DbContextOptionsFactory[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass10_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-05 10:55:04,572 [6] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: connectionString
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotEmpty(String value, String parameterName)
+   at Microsoft.EntityFrameworkCore.SqlServerDbContextOptionsExtensions.UseSqlServer(DbContextOptionsBuilder optionsBuilder, String connectionString, Action`1 sqlServerOptionsAction)
+   at WebApplication.Startup.<ConfigureServices>b__6_1(DbContextOptionsBuilder options) in C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\Startup.cs:line 47
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider p, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.DbContextOptionsFactory[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass10_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-05 10:55:04,800 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 985.2788ms 500 text/html; charset=utf-8
+2019-04-05 10:55:04,800 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 985.2788ms 500 text/html; charset=utf-8
+2019-04-05 10:55:14,406 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/BlogPosts/create  
+2019-04-05 10:55:14,407 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/BlogPosts/create  
+2019-04-05 10:55:14,418 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Create", controller = "BlogPosts"}. Executing action WebApplication.Controllers.BlogPostsController.Create (BloggingSite)
+2019-04-05 10:55:14,418 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Create", controller = "BlogPosts"}. Executing action WebApplication.Controllers.BlogPostsController.Create (BloggingSite)
+2019-04-05 10:55:14,660 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.BlogPostsController.Create (BloggingSite) in 239.8042ms
+2019-04-05 10:55:14,661 [26] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.BlogPostsController.Create (BloggingSite) in 239.8042ms
+2019-04-05 10:55:14,777 [26] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: connectionString
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotEmpty(String value, String parameterName)
+   at Microsoft.EntityFrameworkCore.SqlServerDbContextOptionsExtensions.UseSqlServer(DbContextOptionsBuilder optionsBuilder, String connectionString, Action`1 sqlServerOptionsAction)
+   at WebApplication.Startup.<ConfigureServices>b__6_1(DbContextOptionsBuilder options) in C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\Startup.cs:line 47
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider p, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.DbContextOptionsFactory[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass10_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-05 10:55:14,780 [26] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: connectionString
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotEmpty(String value, String parameterName)
+   at Microsoft.EntityFrameworkCore.SqlServerDbContextOptionsExtensions.UseSqlServer(DbContextOptionsBuilder optionsBuilder, String connectionString, Action`1 sqlServerOptionsAction)
+   at WebApplication.Startup.<ConfigureServices>b__6_1(DbContextOptionsBuilder options) in C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\Startup.cs:line 47
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider p, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.DbContextOptionsFactory[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass10_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-05 10:55:14,908 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 501.2952ms 500 text/html; charset=utf-8
+2019-04-05 10:55:14,908 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 501.2952ms 500 text/html; charset=utf-8
+2019-04-05 11:23:43,485 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [(null)] - User profile is available. Using 'C:\Users\catherine.fortman.TKS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-05 11:23:44,841 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/  
+2019-04-05 11:23:44,847 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/  
+2019-04-05 11:23:44,850 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 DEBUG http://localhost:50390/  0
+2019-04-05 11:23:44,850 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 DEBUG http://localhost:50390/  0
+2019-04-05 11:23:44,970 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 208.3932ms 200 
+2019-04-05 11:23:44,970 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 208.3932ms 200 
+2019-04-05 11:23:45,348 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Index (BloggingSite)
+2019-04-05 11:23:45,348 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Index (BloggingSite)
+2019-04-05 11:23:45,375 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Index (BloggingSite) - Validation state: Valid
+2019-04-05 11:23:45,375 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Index (BloggingSite) - Validation state: Valid
+2019-04-05 11:23:45,388 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Index (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.8608ms.
+2019-04-05 11:23:45,388 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Index (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.8608ms.
+2019-04-05 11:23:45,448 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Index.
+2019-04-05 11:23:45,448 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Index.
+2019-04-05 11:23:45,735 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Index executed in 328.7379ms.
+2019-04-05 11:23:45,735 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Index executed in 328.7379ms.
+2019-04-05 11:23:45,741 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Index (BloggingSite) in 387.2533ms
+2019-04-05 11:23:45,741 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Index (BloggingSite) in 387.2533ms
+2019-04-05 11:23:45,801 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 1010.5653ms 200 text/html; charset=utf-8
+2019-04-05 11:23:45,808 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 1010.5653ms 200 text/html; charset=utf-8
+2019-04-05 11:23:45,817 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/lib/bootstrap/dist/css/bootstrap.css  
+2019-04-05 11:23:45,817 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/lib/bootstrap/dist/css/bootstrap.css  
+2019-04-05 11:23:45,820 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/images/banner2.svg  
+2019-04-05 11:23:45,822 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/images/banner2.svg  
+2019-04-05 11:23:45,824 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/css/site.css  
+2019-04-05 11:23:45,827 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/css/site.css  
+2019-04-05 11:23:45,833 [13] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/images/banner1.svg  
+2019-04-05 11:23:45,833 [13] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/images/banner1.svg  
+2019-04-05 11:23:45,850 [10] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /css/site.css was not modified
+2019-04-05 11:23:45,853 [10] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /css/site.css was not modified
+2019-04-05 11:23:45,862 [7] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /images/banner2.svg was not modified
+2019-04-05 11:23:45,865 [7] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /images/banner2.svg was not modified
+2019-04-05 11:23:45,869 [9] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2019-04-05 11:23:45,871 [9] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2019-04-05 11:23:45,878 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 57.0558ms 304 image/svg+xml
+2019-04-05 11:23:45,882 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 57.0558ms 304 image/svg+xml
+2019-04-05 11:23:45,884 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 68.3966ms 304 text/css
+2019-04-05 11:23:45,887 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 68.3966ms 304 text/css
+2019-04-05 11:23:45,891 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 46.0626ms 304 text/css
+2019-04-05 11:23:45,894 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 46.0626ms 304 text/css
+2019-04-05 11:23:45,896 [13] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /images/banner1.svg was not modified
+2019-04-05 11:23:45,896 [13] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /images/banner1.svg was not modified
+2019-04-05 11:23:45,903 [13] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 87.299ms 304 image/svg+xml
+2019-04-05 11:23:45,903 [13] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 87.299ms 304 image/svg+xml
+2019-04-05 11:23:46,100 [13] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/images/banner3.svg  
+2019-04-05 11:23:46,104 [13] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/images/banner3.svg  
+2019-04-05 11:23:46,108 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/lib/jquery/dist/jquery.js  
+2019-04-05 11:23:46,114 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/lib/jquery/dist/jquery.js  
+2019-04-05 11:23:46,118 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2019-04-05 11:23:46,121 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2019-04-05 11:23:46,123 [7] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /lib/jquery/dist/jquery.js was not modified
+2019-04-05 11:23:46,126 [7] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /lib/jquery/dist/jquery.js was not modified
+2019-04-05 11:23:46,130 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/lib/bootstrap/dist/js/bootstrap.js  
+2019-04-05 11:23:46,138 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/lib/bootstrap/dist/js/bootstrap.js  
+2019-04-05 11:23:46,150 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 30.193ms 304 application/javascript
+2019-04-05 11:23:46,156 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 30.193ms 304 application/javascript
+2019-04-05 11:23:46,165 [9] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /js/site.js was not modified
+2019-04-05 11:23:46,165 [9] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /js/site.js was not modified
+2019-04-05 11:23:46,195 [10] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2019-04-05 11:23:46,201 [10] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2019-04-05 11:23:46,221 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 69.7991ms 304 application/javascript
+2019-04-05 11:23:46,223 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 69.7991ms 304 application/javascript
+2019-04-05 11:23:46,225 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 101.8142ms 304 application/javascript
+2019-04-05 11:23:46,236 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 101.8142ms 304 application/javascript
+2019-04-05 11:23:46,240 [13] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /images/banner3.svg was not modified
+2019-04-05 11:23:46,240 [13] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /images/banner3.svg was not modified
+2019-04-05 11:23:46,255 [13] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 149.6768ms 304 image/svg+xml
+2019-04-05 11:23:46,255 [13] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 149.6768ms 304 image/svg+xml
+2019-04-05 11:23:46,388 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2019-04-05 11:23:46,388 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2019-04-05 11:23:46,403 [6] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2019-04-05 11:23:46,403 [6] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2019-04-05 11:23:46,424 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 53.9192ms 304 font/woff2
+2019-04-05 11:23:46,425 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 53.9192ms 304 font/woff2
+2019-04-05 11:48:22,299 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [(null)] - User profile is available. Using 'C:\Users\catherine.fortman.TKS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-05 11:48:23,606 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 DEBUG http://localhost:50390/  0
+2019-04-05 11:48:23,607 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/  
+2019-04-05 11:48:23,608 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 DEBUG http://localhost:50390/  0
+2019-04-05 11:48:23,608 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/  
+2019-04-05 11:48:23,707 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 97.8976ms 200 
+2019-04-05 11:48:23,707 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 97.8976ms 200 
+2019-04-05 11:48:24,188 [10] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Index (BloggingSite)
+2019-04-05 11:48:24,188 [10] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Index (BloggingSite)
+2019-04-05 11:48:24,230 [10] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Index (BloggingSite) - Validation state: Valid
+2019-04-05 11:48:24,230 [10] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Index (BloggingSite) - Validation state: Valid
+2019-04-05 11:48:24,244 [10] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Index (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.7727ms.
+2019-04-05 11:48:24,244 [10] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Index (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.7727ms.
+2019-04-05 11:48:24,292 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Index.
+2019-04-05 11:48:24,292 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Index.
+2019-04-05 11:48:24,629 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Index executed in 369.4252ms.
+2019-04-05 11:48:24,629 [10] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Index executed in 369.4252ms.
+2019-04-05 11:48:24,634 [10] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Index (BloggingSite) in 439.8432ms
+2019-04-05 11:48:24,634 [10] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Index (BloggingSite) in 439.8432ms
+2019-04-05 11:48:24,683 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 1054.7994ms 200 text/html; charset=utf-8
+2019-04-05 11:48:24,683 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 1054.7994ms 200 text/html; charset=utf-8
+2019-04-05 11:48:24,692 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/images/banner1Cat.png  
+2019-04-05 11:48:24,693 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/images/banner1Cat.png  
+2019-04-05 11:48:24,745 [6] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - Sending file. Request path: '/images/banner1Cat.png'. Physical path: 'C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\wwwroot\images\banner1Cat.png'
+2019-04-05 11:48:24,745 [6] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - Sending file. Request path: '/images/banner1Cat.png'. Physical path: 'C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\wwwroot\images\banner1Cat.png'
+2019-04-05 11:48:24,773 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 57.2247ms 200 image/png
+2019-04-05 11:48:24,773 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 57.2247ms 200 image/png
+2019-04-05 11:57:26,593 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/  
+2019-04-05 11:57:26,593 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/  
+2019-04-05 11:57:26,598 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Index (BloggingSite)
+2019-04-05 11:57:26,598 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Index (BloggingSite)
+2019-04-05 11:57:26,605 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Index (BloggingSite) - Validation state: Valid
+2019-04-05 11:57:26,605 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Index (BloggingSite) - Validation state: Valid
+2019-04-05 11:57:26,649 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Index (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.5726ms.
+2019-04-05 11:57:26,649 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Index (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.5726ms.
+2019-04-05 11:57:26,658 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Index.
+2019-04-05 11:57:26,658 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Index.
+2019-04-05 11:57:26,680 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Index executed in 10.9167ms.
+2019-04-05 11:57:26,680 [9] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Index executed in 10.9167ms.
+2019-04-05 11:57:26,777 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Index (BloggingSite) in 82.8901ms
+2019-04-05 11:57:26,777 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Index (BloggingSite) in 82.8901ms
+2019-04-05 11:57:26,826 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/images/banner1Cat.png  
+2019-04-05 11:57:26,827 [26] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/images/banner1Cat.png  
+2019-04-05 11:57:26,831 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 216.3299ms 200 text/html; charset=utf-8
+2019-04-05 11:57:26,831 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 216.3299ms 200 text/html; charset=utf-8
+2019-04-05 11:57:26,892 [25] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - Sending file. Request path: '/images/banner1Cat.png'. Physical path: 'C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\wwwroot\images\banner1Cat.png'
+2019-04-05 11:57:26,892 [25] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - Sending file. Request path: '/images/banner1Cat.png'. Physical path: 'C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\wwwroot\images\banner1Cat.png'
+2019-04-05 11:57:26,910 [25] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 119.5528ms 200 image/png
+2019-04-05 11:57:26,911 [25] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 119.5528ms 200 image/png
+2019-04-05 11:57:27,156 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/favicon.ico  
+2019-04-05 11:57:27,156 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/favicon.ico  
+2019-04-05 11:57:27,209 [19] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\wwwroot\favicon.ico'
+2019-04-05 11:57:27,209 [19] INFO  Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [(null)] - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\wwwroot\favicon.ico'
+2019-04-05 11:57:27,233 [19] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 61.0985ms 200 image/x-icon
+2019-04-05 11:57:27,233 [19] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 61.0985ms 200 image/x-icon
+2019-04-05 11:58:01,478 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/BlogPost  
+2019-04-05 11:58:01,478 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/BlogPost  
+2019-04-05 11:58:01,495 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 6.0123ms 404 
+2019-04-05 11:58:01,495 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 6.0123ms 404 
+2019-04-05 11:58:05,859 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/BlogPosts  
+2019-04-05 11:58:05,859 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/BlogPosts  
+2019-04-05 11:58:05,880 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "BlogPosts"}. Executing action WebApplication.Controllers.BlogPostsController.Index (BloggingSite)
+2019-04-05 11:58:05,880 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "BlogPosts"}. Executing action WebApplication.Controllers.BlogPostsController.Index (BloggingSite)
+2019-04-05 11:58:06,277 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.BlogPostsController.Index (BloggingSite) in 394.1187ms
+2019-04-05 11:58:06,277 [9] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.BlogPostsController.Index (BloggingSite) in 394.1187ms
+2019-04-05 11:58:07,354 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: connectionString
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotEmpty(String value, String parameterName)
+   at Microsoft.EntityFrameworkCore.SqlServerDbContextOptionsExtensions.UseSqlServer(DbContextOptionsBuilder optionsBuilder, String connectionString, Action`1 sqlServerOptionsAction)
+   at WebApplication.Startup.<ConfigureServices>b__6_1(DbContextOptionsBuilder options) in C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\Startup.cs:line 47
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider p, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.DbContextOptionsFactory[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass10_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-05 11:58:07,361 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: connectionString
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotEmpty(String value, String parameterName)
+   at Microsoft.EntityFrameworkCore.SqlServerDbContextOptionsExtensions.UseSqlServer(DbContextOptionsBuilder optionsBuilder, String connectionString, Action`1 sqlServerOptionsAction)
+   at WebApplication.Startup.<ConfigureServices>b__6_1(DbContextOptionsBuilder options) in C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\Startup.cs:line 47
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider p, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.DbContextOptionsFactory[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass10_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-05 11:58:07,594 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 1716.9265ms 500 text/html; charset=utf-8
+2019-04-05 11:58:07,594 [9] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 1716.9265ms 500 text/html; charset=utf-8
