@@ -2,15 +2,11 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.EntityFrameworkCore;
-using WebApplication.Models;
 using Microsoft.Extensions.Logging;
-using log4net;
-using System.IO;
-using log4net.Repository;
-using System.Reflection;
+using WebApplication.Models;
 
 namespace WebApplication
 {
@@ -23,12 +19,14 @@ namespace WebApplication
         {
             _env = env;
             _config = config;
-            ////loggerFactory.AddConsole(Configuration.GetSection("Logging")); //log levels set in your configuration
-            ////loggerFactory.AddDebug(); //does all log levels
+
+            var builder = new ConfigurationBuilder()
+            .SetBasePath(env.ContentRootPath)
+            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+            .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+            .AddEnvironmentVariables();
+            _config = builder.Build();
         }
-
-
-        public IConfiguration Configuration { get; }
 
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -43,8 +41,12 @@ namespace WebApplication
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddDbContext<BloggingContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("BloggingContext")));
+            string connection = _config.GetConnectionString("DefaultConnection");
+
+            // Startup.ConfigureServices
+            services.AddDbContext<BloggingContext>
+        (options => options.UseSqlServer(connection));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

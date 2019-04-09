@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace WebApplication.Models
 {
     public class BloggingContext : DbContext
     {
+
         public BloggingContext(DbContextOptions<BloggingContext> options)
             :  base(options)
         {

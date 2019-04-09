@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using WebApplication.Models;
 
-namespace WebApplication.Controllers
+namespace BloggingSite.Controllers
 {
     public class BlogPostsController : Controller
     {
@@ -20,10 +20,10 @@ namespace WebApplication.Controllers
             _logger = logger;
         }
 
+
         // GET: BlogPosts
         public async Task<IActionResult> Index()
         {
-            _logger.LogDebug("Entering BlogPosts Index");
             return View(await _context.BlogPost.ToListAsync());
         }
 
@@ -56,7 +56,7 @@ namespace WebApplication.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("BlogID,Title,Topics,Text")] BlogPost blogPost)
+        public async Task<IActionResult> Create([Bind("BlogID,Title,Text")] BlogPost blogPost)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace WebApplication.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("BlogID,Title,Topics,Text")] BlogPost blogPost)
+        public async Task<IActionResult> Edit(int id, [Bind("BlogID,Title,Text")] BlogPost blogPost)
         {
             if (id != blogPost.BlogID)
             {

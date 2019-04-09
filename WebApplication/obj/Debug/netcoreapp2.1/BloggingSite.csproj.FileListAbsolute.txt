@@ -14,11 +14,6 @@ C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\bin\Debug\n
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\BloggingSite.TagHelpers.input.cache
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\BloggingSite.TagHelpers.output.cache
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\BloggingSite.RazorCoreGenerate.cache
-C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\BlogPosts\Create.g.cshtml.cs
-C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\BlogPosts\Delete.g.cshtml.cs
-C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\BlogPosts\Details.g.cshtml.cs
-C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\BlogPosts\Edit.g.cshtml.cs
-C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\BlogPosts\Index.g.cshtml.cs
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
@@ -35,4 +30,9 @@ C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\n
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\BloggingSite.dll
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\BloggingSite.pdb
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\BloggingSite.csproj.CopyComplete
+C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\BlogPosts\Create.g.cshtml.cs
+C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\BlogPosts\Delete.g.cshtml.cs
+C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\BlogPosts\Details.g.cshtml.cs
+C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\BlogPosts\Edit.g.cshtml.cs
+C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\Razor\Views\BlogPosts\Index.g.cshtml.cs
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\BloggingSite.csprojAssemblyReference.cache
