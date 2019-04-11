@@ -11,8 +11,10 @@ namespace WebApplication.Models
     {
         [Key]
         public int BlogID { get; set; }
+        [DataType(DataType.Text)]
         public string Title { get; set; }
         public virtual List<Topic> Topics { get; set; }
+        [DataType(DataType.Text)]
         public string Text { get; set; }
     }
 }
