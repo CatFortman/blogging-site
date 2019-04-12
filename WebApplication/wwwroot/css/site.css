@@ -1,7 +1,6 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
 body {
-    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -12,6 +11,14 @@ body {
     padding-right: 15px;
 }
 
+/* Main panel in home index*/
+.main-panel {
+    padding-bottom: 25px;
+}
+
+.panel-background {
+    background: #ebe257;
+}
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;
@@ -23,6 +30,15 @@ body {
     width: 100%;
 }
 
+.nav-a {
+    color: #fff;
+    padding: 15px;
+}
+
+.blog-footer {
+    padding-left: 95px;
+    width: 100%;
+}
 /* QR code generator */
 #qrCode {
     margin: 15px;
