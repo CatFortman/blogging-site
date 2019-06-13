@@ -36,3 +36,4 @@ C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\n
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\BloggingSite.pdb
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\BloggingSite.csproj.CopyComplete
 C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\BloggingSite.csprojAssemblyReference.cache
+C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
