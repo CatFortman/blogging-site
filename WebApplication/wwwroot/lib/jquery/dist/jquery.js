@@ -11,6 +11,9 @@
  *
  * Date: 2018-01-20T17:24Z
  */
+
+/* eslint-disable */
+
 ( function( global, factory ) {
 
 	"use strict";
@@ -5595,7 +5598,7 @@ var
 	// See https://github.com/eslint/eslint/issues/3229
 	rxhtmlTag = /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([a-z][^\/\0>\x20\t\r\n\f]*)[^>]*)\/>/gi,
 
-	/* eslint-enable */
+
 
 	// Support: IE <=10 - 11, Edge 12 - 13 only
 	// In IE/Edge using regex groups here causes severe slowdowns.
@@ -5768,7 +5771,8 @@ function domManip( collection, args, callback, ignored ) {
 	}
 
 	return collection;
-}
+    }
+    
 
 function remove( elem, selector, keepData ) {
 	var node,
@@ -9453,8 +9457,7 @@ jQuery.expr.pseudos.visible = function( elem ) {
 };
 
 
-
-
+    
 jQuery.ajaxSettings.xhr = function() {
 	try {
 		return new window.XMLHttpRequest();
