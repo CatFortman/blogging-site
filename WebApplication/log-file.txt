@@ -10388,3 +10388,48 @@ C:\WorkSpaces\70-486\Introduction\PracticeApplication\WebApplication\Views\Home\
 2019-06-14 16:12:00,694 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/assets/js/vendor/holder.min.js  
 2019-06-14 16:12:00,709 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 10.0756ms 404 
 2019-06-14 16:12:00,709 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 10.0756ms 404 
+2019-06-14 16:22:30,677 [1] INFO  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [(null)] - User profile is available. Using 'C:\Users\catherine.fortman.TKS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-06-14 16:22:31,849 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 DEBUG http://localhost:50390/  0
+2019-06-14 16:22:31,851 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 DEBUG http://localhost:50390/  0
+2019-06-14 16:22:31,851 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/  
+2019-06-14 16:22:31,851 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/  
+2019-06-14 16:22:31,921 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 71.3576ms 200 
+2019-06-14 16:22:31,921 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 71.3576ms 200 
+2019-06-14 16:22:32,396 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Index (BloggingSite)
+2019-06-14 16:22:32,396 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action WebApplication.Controllers.HomeController.Index (BloggingSite)
+2019-06-14 16:22:32,416 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Index (BloggingSite) - Validation state: Valid
+2019-06-14 16:22:32,416 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executing action method WebApplication.Controllers.HomeController.Index (BloggingSite) - Validation state: Valid
+2019-06-14 16:22:32,427 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Index (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.5631ms.
+2019-06-14 16:22:32,427 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action method WebApplication.Controllers.HomeController.Index (BloggingSite), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.5631ms.
+2019-06-14 16:22:32,478 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Index.
+2019-06-14 16:22:32,478 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executing ViewResult, running view Index.
+2019-06-14 16:22:32,634 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Index executed in 192.248ms.
+2019-06-14 16:22:32,634 [6] INFO  Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - Executed ViewResult - view Index executed in 192.248ms.
+2019-06-14 16:22:32,643 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Index (BloggingSite) in 238.5003ms
+2019-06-14 16:22:32,643 [6] INFO  Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker [(null)] - Executed action WebApplication.Controllers.HomeController.Index (BloggingSite) in 238.5003ms
+2019-06-14 16:22:32,690 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 820.9715ms 200 text/html; charset=utf-8
+2019-06-14 16:22:32,690 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 820.9715ms 200 text/html; charset=utf-8
+2019-06-14 16:22:34,460 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/assets/js/vendor/popper.min.js  
+2019-06-14 16:22:34,464 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/assets/js/vendor/popper.min.js  
+2019-06-14 16:22:34,464 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/dist/js/bootstrap.min.js  
+2019-06-14 16:22:34,464 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/dist/js/bootstrap.min.js  
+2019-06-14 16:22:34,478 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 12.5835ms 404 
+2019-06-14 16:22:34,482 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 12.5835ms 404 
+2019-06-14 16:22:34,482 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 10.0862ms 404 
+2019-06-14 16:22:34,483 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 10.0862ms 404 
+2019-06-14 16:22:34,505 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/assets/js/vendor/holder.min.js  
+2019-06-14 16:22:34,505 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/assets/js/vendor/holder.min.js  
+2019-06-14 16:22:34,513 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 4.906ms 404 
+2019-06-14 16:22:34,513 [7] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 4.906ms 404 
+2019-06-14 16:22:34,557 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/assets/js/vendor/popper.min.js  
+2019-06-14 16:22:34,557 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/assets/js/vendor/popper.min.js  
+2019-06-14 16:22:34,566 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 5.8048ms 404 
+2019-06-14 16:22:34,566 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 5.8048ms 404 
+2019-06-14 16:22:34,590 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/dist/js/bootstrap.min.js  
+2019-06-14 16:22:34,590 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/dist/js/bootstrap.min.js  
+2019-06-14 16:22:34,595 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 7.1567ms 404 
+2019-06-14 16:22:34,596 [6] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 7.1567ms 404 
+2019-06-14 16:22:34,621 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/assets/js/vendor/holder.min.js  
+2019-06-14 16:22:34,621 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request starting HTTP/1.1 GET http://localhost:44370/assets/js/vendor/holder.min.js  
+2019-06-14 16:22:34,631 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 7.3605ms 404 
+2019-06-14 16:22:34,632 [10] INFO  Microsoft.AspNetCore.Hosting.Internal.WebHost [(null)] - Request finished in 7.3605ms 404 
